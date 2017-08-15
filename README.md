@@ -36,6 +36,17 @@ Install using composer by adding to your composer file using commands:
 3. composer update
 4. bin/magento setup:upgrade
 
+Testing Instructions
+-------------------------
+
+        GET 
+            http://mymagentourl/rest/V1/simpleApi/product/:productId
+        
+        POST 
+            http://mymagentourl/rest/V1/simpleApi/product/calculateCost
+        
+            body {"options": {"productId": 100, "country": "US", "region": "New York", "postcode": "10010"}}
+
 Support
 -------
 
