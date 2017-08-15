@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Acaldeira Team
+ * @copyright Copyright (c) 2017 Acaldeira (http://www.acaldeira.com.br)
+ * @package Acaldeira_SimpleApi
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Acaldeira_SimpleApi" setup_version="1.0.0">
+   </module>
+</config>

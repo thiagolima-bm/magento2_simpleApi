@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="\Acaldeira\SimpleApi\Api\SimpleProductManagementInterface" type="\Acaldeira\SimpleApi\Model\SimpleProductManagement"/>
+    <preference for="\Acaldeira\SimpleApi\Api\Data\CostCalculationInterface" type="\Acaldeira\SimpleApi\Model\CostCalculation"/>
+    <preference for="\Acaldeira\SimpleApi\Api\Data\SimpleCostResultInterface" type="\Acaldeira\SimpleApi\Model\SimpleCostResult"/>
+    <preference for="\Acaldeira\SimpleApi\Api\Data\SimpleProductInterface" type="\Acaldeira\SimpleApi\Model\SimpleProduct"/>
+</config>
