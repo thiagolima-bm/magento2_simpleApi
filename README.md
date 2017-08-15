@@ -19,8 +19,9 @@ Installation Instructions
 -------------------------
 Install using composer by adding to your composer file using commands:
 
-1. extract the extension
-2. update composer.json
+1. create a folder at magento's root folder called "acmodules"
+2. extract the extension inside the folder "acmodules/simpleapi"
+3. update Magento's composer.json file with the following
  
     2.1 add require 
     
@@ -33,8 +34,8 @@ Install using composer by adding to your composer file using commands:
             "url": "acmodules/simpleapi"
         }
     
-3. composer update
-4. bin/magento setup:upgrade
+4. composer update
+5. bin/magento setup:upgrade
 
 Testing Instructions
 -------------------------
