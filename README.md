@@ -42,12 +42,22 @@ Testing Instructions
 
         GET 
             http://mymagentourl/rest/V1/simpleApi/product/:productId
+            
+
+Result:
+
+ ![Product Info](https://image.prntscr.com/image/XIkY6BUkRWKHbDnwE4ZwEg.png "Product info")
+
         
         POST 
             http://mymagentourl/rest/V1/simpleApi/product/calculateCost
         
             body {"options": {"productId": 100, "country": "US", "region": "New York", "postcode": "10010"}}
+            
+Result:
 
+ ![Quote Info](https://image.prntscr.com/image/yp5rMCXeRmm1zsGfTDFR9Q.png "Quote info")
+ 
 Support
 -------
 
